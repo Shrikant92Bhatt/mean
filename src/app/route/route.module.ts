@@ -6,7 +6,8 @@ import { MaterialModule } from '../angular-material.module';
 
 const route: Routes = [
   { path: '', component: PostListComponent, pathMatch: 'full' },
-  { path: 'create', component: PostCreateComponent }
+  { path: 'create', component: PostCreateComponent },
+  { path: 'edit/:postId', component: PostCreateComponent }
 ];
 @NgModule( {
   declarations: [],
