@@ -37,6 +37,7 @@ export class PostCreateComponent implements OnInit {
       } else {
         this.mode = 'create';
         this.postId = null;
+        this.isLoading = false;
       }
 
     } );
